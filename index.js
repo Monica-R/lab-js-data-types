@@ -49,7 +49,7 @@ console.log(tripAmount);
 // Generate a random integer between 1 and 10 (inclusive)
 const min = 1;
 const max = 10;
-const randomNumber = Math.floor(Math.random() * (Math.floor(max) - Math.ceil(min)) + Math.ceil(min));
+const randomNumber = Math.floor(Math.random() * (Math.floor(max) - Math.ceil(min) + 1) + Math.ceil(min));
 
 // Print the generated random number
 console.log(randomNumber);
